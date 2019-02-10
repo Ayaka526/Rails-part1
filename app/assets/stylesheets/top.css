@@ -1,0 +1,27 @@
+
+.top-title{
+	font-size:26px;
+	margin:33px 23px;
+	font-family:verdana;
+}
+
+span.top-span{
+	margin:0 10px;
+}
+strong{
+	font-weight:bold;
+}
+
+.top-text{
+
+	font-size:13px;
+	margin:0 28px;
+
+}
+.top-body{
+	line-height:18px;
+}
+
+.top-text-item,.top-start{
+	margin:33px;
+}

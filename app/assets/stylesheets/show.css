@@ -1,0 +1,41 @@
+
+.show{
+	font-size:13px;
+	margin:35px 30px;
+}
+
+
+.flash{
+	margin:20px 30px;
+	color:green;
+}
+
+
+.title-box{
+	margin-bottom:30px;
+}
+
+.body-box{
+	margin-bottom:30px;
+}
+
+.show-title{
+	float:left;
+	margin:0 30px;
+	margin-right: 5px
+}
+
+.show-body{
+	float:left;
+	margin:0 30px;
+	margin-right: 5px
+}
+
+.show-edit{
+	float:left;
+}
+
+.show-item{
+	float:left;
+	margin:0 5px;
+}

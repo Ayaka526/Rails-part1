@@ -1,0 +1,39 @@
+
+		<div class="show">
+
+				<% if flash[:success] %>
+     			 <div class="flash">
+      			  <%= flash[:success] %>
+      			</div>
+    			<% end %>
+
+
+				<% if flash[:notice] %>
+   			 	  <div class="flash">
+   			     <%= flash[:notice] %>
+   			  	 </div>
+   				<% end %>
+
+
+
+			<div class="show-contents">
+				<div class="title-box">
+					<div class="show-title"><strong>Title:</strong></div>
+					<p class="put-title"><%= @blog.title %></p>
+				</div>
+
+
+				<div class="body-box">
+					<div class="show-body"><strong>Body:</strong></div>
+					<p class="put-body"><%= @blog.body %></p>
+				</div>
+			</div>
+
+
+			<div class="step-contents">
+				<div class="show-edit"><%= link_to "Edit", edit_blog_path(@blog),class: "edit_#{@blog.id}" %></div>
+				<div class="show-item">|</div>
+				<div class="show-back"><%=link_to "Back", blogs_path(@blog),class: "back"%></div>
+			</div>
+
+		</div>

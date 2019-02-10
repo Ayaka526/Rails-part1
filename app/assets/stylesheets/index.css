@@ -1,0 +1,64 @@
+
+.index-top{
+	font-size:26px;
+	font-weight:bold;
+	margin:25px 25px 10px 25px;
+	font-family:verdana;
+}
+
+
+
+table {
+    width:60%;
+    color:black;
+
+}
+
+th.indextitle {
+    width: 25%;
+  
+
+}
+
+th.body {
+    width: 50%;
+}
+
+th.contents{
+	width: 25%;
+
+}
+
+thead{
+	border-spacing: 5px;
+	padding:5px 5px;
+	margin-bottom:10px;
+}
+
+.index-item{
+	font-size:13px;
+	margin:10px 27px;
+
+}
+
+.blog-contents {
+	font-size:13px;
+	line-height: 16px
+	margin:0 10px;
+}
+
+.new-book{
+	margin:0 27px;
+	font-size:13px;
+}
+
+
+.newbook-body{
+
+
+}
+
+.newbook-top{
+	font-size:20px;
+	font-family:verdana;
+}

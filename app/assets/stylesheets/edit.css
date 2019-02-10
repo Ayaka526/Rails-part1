@@ -1,0 +1,42 @@
+
+.body_edit{
+	margin:25px;
+	font-family:verdana;
+}
+
+.edit-top-title{
+	font-size:25px
+}
+
+.edit-contents{
+	margin:0 auto;
+	font-family:"sans-serif";
+	font-size:12px;
+}
+
+.edit-title{
+	margin:0 auto;
+}
+
+.edit-body{
+	margin:0 auto;
+	margin-top:10px;
+}
+
+.update-book{
+	margin:10px;
+}
+
+
+.show-step{
+	float:left;
+}
+
+.back-step{
+	float:left;
+	margin:0 5px;
+}
+
+.edit-step{
+	font-size:13px;
+}
