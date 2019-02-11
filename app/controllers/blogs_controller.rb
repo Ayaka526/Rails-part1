@@ -4,7 +4,7 @@ class BlogsController < ApplicationController
 
   	def index
   		@blog = Blog.new
-  		@blogs = Blog.all
+      @blogs = Blog.all.order(updated_at: :asc)
   	end
 
   	def create
@@ -27,11 +27,12 @@ class BlogsController < ApplicationController
 
   	def update
   		blog = Blog.find(params[:id])
-      if blog.save
+      if blog.update(blog_params)
         flash[:notice] = "Book was successfully updated."
-        redirect_to blog_path(blog.id)
+        redirect_to blog_path(blog)
       end
-   	end
+
+    end
 
 
  	  def destroy
